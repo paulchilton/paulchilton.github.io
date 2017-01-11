@@ -1,8 +1,10 @@
 # A sample Gemfile
 source "https://rubygems.org"
-gemspec
 
+##gem 'github-pages', group: :jekyll_plugins
+gem 'github-pages'
 gem 'jekyll'
 gem 'jekyll-paginate'
 gem 'kramdown'
 gem 'pygments.rb'
+gem 'wdm', '~> 0.1.0' if Gem.win_platform?

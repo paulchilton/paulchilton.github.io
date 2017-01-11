@@ -1,5 +1,5 @@
 # Setup
-name:         Paul Chilton Knowledge Base
+name:         Paul Chilton
 tagline:      Technical resource knowledge base
 baseurl:      ""
 
@@ -9,3 +9,4 @@ gems:
 
 #Others
 markdown: kramdown
+repository: "paulchilton/paulchilton"
