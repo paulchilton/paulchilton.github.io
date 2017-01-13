@@ -2,7 +2,7 @@
 layout: post
 title:  "Installing Jekyll on Windows"
 date:   2017-01-10
-categories: jekyll
+categories: Jekyll
 ---
 
 Summarising the instructions from the [Jekyllrb Site][jekyll-windowsinstall] these are the steps to install Jekyll on Windows and run Jekyll to serve pages from the local copy of a Github Pages site.

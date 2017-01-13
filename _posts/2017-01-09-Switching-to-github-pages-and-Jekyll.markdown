@@ -2,7 +2,7 @@
 layout: post
 title:  "Switching to Github Pages & Jekyll"
 date:   2017-01-09
-categories: github jekyll
+categories: Github Jekyll
 ---
 
 For many years I had a Wordpress website that I used in a similar way to this site to document technical challenges, projects and information that I found useful. The only real problem was I was terrible at updating the content, partly because I forgot to and partly because it was "hard" to do, there's an effort involved in logging into the website admin and adding in the new information. It's a poor excuse but it's a real one.
