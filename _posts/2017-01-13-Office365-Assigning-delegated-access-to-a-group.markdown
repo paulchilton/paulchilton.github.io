@@ -7,7 +7,7 @@ categories: Office365
 
 In Office 365 in an organisation it is often useful to be able to assign delegated mailbox access to an administrator so that they can maintain or monitor emails. To do this from the user interface web interface can be very time consuming as you have to assign the role to each mailbox one-by-one, if you want to give multiple people access then it is even more time consuming. A nice solution to this is to create a mail-enabled security distribution list that contains as members those whom you would like to give access to. Depending on your setup you should create a distribution group either on your on-premises active directory or using the online web interface; ensure this group has an email address assigned.
 
-Open Powershell as an administrator.
+Open Powershell.
 
 First you need to create a connection to Office 365; enter the following command, this will prompt your to authenticate with Office so enter your credentials when asked. 
 
