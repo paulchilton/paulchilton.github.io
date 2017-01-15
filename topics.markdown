@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Paul Chilton Technical Knowledge Base - Topics
 ---
  
 <h1>Article Topics</h1>

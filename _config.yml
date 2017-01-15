@@ -1,6 +1,8 @@
 # Setup
 name:         Paul Chilton
-tagline:      Technical resource knowledge base
+tagline:      Electronics, Home Automation, IT & More
+
+# Leave blank
 baseurl:      ""
 
 # Gems
@@ -10,3 +12,5 @@ gems:
 #Others
 markdown: kramdown
 repository: "paulchilton/paulchilton"
+
+siteurl: "https://paulchilton.github.io"

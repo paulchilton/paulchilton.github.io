@@ -470,6 +470,10 @@ header h1 {
   letter-spacing: -1px;
 }
 
+header a:hover {
+	color: #ffffff;
+}
+
 header h2 {
   width: 540px;
   margin-top: 0;
@@ -752,6 +756,29 @@ ol {
 dl dd {
   font-style: italic;
   font-weight: 100;
+}
+
+#postnavigation { border: 0; }
+#postnavigation td { border: 0; }
+
+#postnavigation td.navigationimage {
+	width: 60px;
+}
+
+#postnavigation img {
+	width: 50px;
+}
+
+#postnavigation td.previous {
+	text-align: left;
+}
+
+#postnavigation td.next {
+	text-align: right;
+}
+
+#postnavigation td.spacer {
+	width: 50px;
 }
 
 /* MISC */
