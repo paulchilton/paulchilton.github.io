@@ -9,7 +9,7 @@ In Office 365 in an organisation it is often useful to be able to assign delegat
 
 Open Powershell.
 
-First you need to create a connection to Office 365; enter the following command, this will prompt your to authenticate with Office so enter your credentials when asked. 
+First you need to create a connection to Office 365; enter the following command, this will prompt you to authenticate with Office so enter your credentials when asked. 
 
 {% highlight PowerShell %}
 $session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri "https://outlook.office365.com/powershell-liveid/" -Credential $cred -Authentication Basic -AllowRedirection
