@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Home Automation RF Master Interface"
-date:   2017-01-14
+date:   2017-01-20
 categories: Electronics Home-Automation
 ---
 
