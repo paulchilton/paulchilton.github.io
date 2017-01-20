@@ -16,6 +16,12 @@ $session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri "h
 Import-PSSession $session
 {% endhighlight %}
 
+If you get an error importing the session then you may need to allow remotely signed scripts to run by executing the following command:
+
+{% highlight PowerShell %}
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+{% endhighlight %}
+
 And then run the following command to assign permissions to the public folders.
 
 {% highlight PowerShell %}

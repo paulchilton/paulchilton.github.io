@@ -22,6 +22,12 @@ Import-PSSession $session
 get-mailbox
 {% endhighlight %}
 
+If you get an error importing the session then you may need to allow remotely signed scripts to run by executing the following command:
+
+{% highlight PowerShell %}
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+{% endhighlight %}
+
 Next you can run the following command to assign the required access rights to the newly created administrators group. Simply replace the email address below with that of your new group.
 
 {% highlight PowerShell %}

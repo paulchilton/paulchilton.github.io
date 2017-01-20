@@ -22,6 +22,12 @@ Import-PSSession $session
 get-mailbox
 {% endhighlight %}
 
+If you get an error importing the session then you may need to allow remotely signed scripts to run by executing the following command:
+
+{% highlight PowerShell %}
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+{% endhighlight %}
+
 Next run the following command to enable emails sent as the shared mailbox to be copied into the sent items folder:
 
 {% highlight PowerShell %}
