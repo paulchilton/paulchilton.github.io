@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+{{ content }}
+
+<table id="postnavigation">
+	<tr>
+		<td class="navigationimage">
+			{% if page.previous != nil %}
+			<a href="{{ page.previous.url }}"><img src="/images/previous.png"></a>
+			{% endif %}
+		</td>
+		<td class="previous">
+			{% if page.previous != nil %}
+			<a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+			{% endif %}
+		</td>
+		<td class="spacer">&nbsp;</td>
+		<td class="next">
+			{% if page.next != nil %}
+			<a href="{{ page.next.url }}">{{ page.next.title }}</a>
+			{% endif %}
+		</td>
+		<td class="navigationimage">
+			{% if page.next != nil %}
+			<a href="{{ page.next.url }}"><img src="/images/next.png"></a>
+			{% endif %}
+		</td>
+	</tr>
+</table>
+
+<div id="disqus_thread"></div>
+<script>
+var disqus_developer = 0;
+
+var disqus_config = function () {
+this.page.url = "{{ site.siteurl }}/{{ page.url }}";
+this.page.identifier = "{{ page.id }}";
+};
+
+(function() {
+var d = document, s = d.createElement('script');
+s.src = '//pchilton.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
